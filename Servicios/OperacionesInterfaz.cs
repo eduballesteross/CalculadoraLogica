@@ -11,5 +11,7 @@ namespace CalculadoraLogica.Servicios
 
         public void OperadorIgualdad();
 
+        public void OperadorDesigualdad();
+
     }
 }

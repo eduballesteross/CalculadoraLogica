@@ -31,5 +31,28 @@ namespace CalculadoraLogica.Servicios
                 Console.WriteLine("Los números introducidos no son iguales");
             }
         }
+
+        public void OperadorDesigualdad() 
+        {
+            int operadorUno;
+            int operadorDos;
+
+            Console.WriteLine("Introduzca un valor para el primer numero: ");
+            operadorUno = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Introduzca un valor para el segundo numero: ");
+            operadorDos = Convert.ToInt32(Console.ReadLine());
+
+
+            if (operadorUno != operadorDos)
+            {
+                Console.WriteLine("Los números introducidos son desiguales");
+            }
+
+            else
+            {
+                Console.WriteLine("Los números introducidos son iguales");
+            }
+        }
     }
 }

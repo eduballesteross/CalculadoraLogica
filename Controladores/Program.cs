@@ -20,16 +20,21 @@ namespace CalculadoraLogica
 
             switch(opcionSeleccion)
             {
-                case 0: Console.WriteLine("[INFO] Se cerrara la aplicación");
+                case 0: Console.WriteLine("[INFO] Se cerrara la aplicación"); 
+                    cerrarMenu=true
                     break;
 
-                case 1: Console.WriteLine("");
+                case 1: operacionI.OperadorIgualdad;
                     break;
 
-                case 2: Console.WriteLine("");
+                case 2: operacionI.OperadorDesigualdad;
                     break;
 
-               
+                default:
+                    Console.WriteLine("No se ha elegido una opción correcta");
+                    break;
+
+
 
             }       
         }
