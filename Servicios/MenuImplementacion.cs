@@ -18,7 +18,8 @@ namespace CalculadoraLogica.Servicios
                 Console.WriteLine("3.Desigualdad");                          
                 Console.WriteLine("Seleccione una opción:");
 
-            opcionSeleccionada = Console.ReadKey(true).KeyChar - (0);
+            opcionSeleccionada = Convert.ToInt32(Console.ReadKey(true).KeyChar.ToString());
+
             return opcionSeleccionada;
             
         }
